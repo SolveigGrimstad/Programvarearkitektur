@@ -1,0 +1,118 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.zebra.game"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="14"
+8-->/Users/gregergahre/StudioProjects/gruppe5/android/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/gregergahre/StudioProjects/gruppe5/android/AndroidManifest.xml
+10
+11    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+12    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.firebase:firebase-database:19.7.0] /Users/gregergahre/.gradle/caches/transforms-2/files-2.1/edc1c19b08d036ca947936e9d0e21547/jetified-firebase-database-19.7.0/AndroidManifest.xml:25:5-79
+13-->[com.google.firebase:firebase-database:19.7.0] /Users/gregergahre/.gradle/caches/transforms-2/files-2.1/edc1c19b08d036ca947936e9d0e21547/jetified-firebase-database-19.7.0/AndroidManifest.xml:25:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->[com.google.firebase:firebase-database:19.7.0] /Users/gregergahre/.gradle/caches/transforms-2/files-2.1/edc1c19b08d036ca947936e9d0e21547/jetified-firebase-database-19.7.0/AndroidManifest.xml:26:5-67
+14-->[com.google.firebase:firebase-database:19.7.0] /Users/gregergahre/.gradle/caches/transforms-2/files-2.1/edc1c19b08d036ca947936e9d0e21547/jetified-firebase-database-19.7.0/AndroidManifest.xml:26:22-64
+15
+16    <application
+16-->/Users/gregergahre/StudioProjects/gruppe5/android/AndroidManifest.xml:5:5-22:19
+17        android:allowBackup="true"
+17-->/Users/gregergahre/StudioProjects/gruppe5/android/AndroidManifest.xml:6:9-35
+18        android:appCategory="game"
+18-->/Users/gregergahre/StudioProjects/gruppe5/android/AndroidManifest.xml:9:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.0.0] /Users/gregergahre/.gradle/caches/transforms-2/files-2.1/b90fd3f88b15355c115d4e679507854c/core-1.0.0/AndroidManifest.xml:22:18-86
+20        android:debuggable="true"
+21        android:icon="@drawable/ic_launcher"
+21-->/Users/gregergahre/StudioProjects/gruppe5/android/AndroidManifest.xml:7:9-45
+22        android:isGame="true"
+22-->/Users/gregergahre/StudioProjects/gruppe5/android/AndroidManifest.xml:8:9-30
+23        android:label="@string/app_name"
+23-->/Users/gregergahre/StudioProjects/gruppe5/android/AndroidManifest.xml:10:9-41
+24        android:testOnly="true"
+25        android:theme="@style/GdxTheme" >
+25-->/Users/gregergahre/StudioProjects/gruppe5/android/AndroidManifest.xml:11:9-40
+26        <activity
+26-->/Users/gregergahre/StudioProjects/gruppe5/android/AndroidManifest.xml:12:9-21:20
+27            android:name="com.zebra.game.AndroidLauncher"
+27-->/Users/gregergahre/StudioProjects/gruppe5/android/AndroidManifest.xml:13:13-58
+28            android:configChanges="keyboard|keyboardHidden|navigation|orientation|screenSize|screenLayout"
+28-->/Users/gregergahre/StudioProjects/gruppe5/android/AndroidManifest.xml:16:13-107
+29            android:label="@string/app_name"
+29-->/Users/gregergahre/StudioProjects/gruppe5/android/AndroidManifest.xml:14:13-45
+30            android:screenOrientation="landscape" >
+30-->/Users/gregergahre/StudioProjects/gruppe5/android/AndroidManifest.xml:15:13-50
+31            <intent-filter>
+31-->/Users/gregergahre/StudioProjects/gruppe5/android/AndroidManifest.xml:17:13-20:29
+32                <action android:name="android.intent.action.MAIN" />
+32-->/Users/gregergahre/StudioProjects/gruppe5/android/AndroidManifest.xml:18:17-69
+32-->/Users/gregergahre/StudioProjects/gruppe5/android/AndroidManifest.xml:18:25-66
+33
+34                <category android:name="android.intent.category.LAUNCHER" />
+34-->/Users/gregergahre/StudioProjects/gruppe5/android/AndroidManifest.xml:19:17-77
+34-->/Users/gregergahre/StudioProjects/gruppe5/android/AndroidManifest.xml:19:27-74
+35            </intent-filter>
+36        </activity>
+37
+38        <service
+38-->[com.google.firebase:firebase-database:19.7.0] /Users/gregergahre/.gradle/caches/transforms-2/files-2.1/edc1c19b08d036ca947936e9d0e21547/jetified-firebase-database-19.7.0/AndroidManifest.xml:29:9-35:19
+39            android:name="com.google.firebase.components.ComponentDiscoveryService"
+39-->[com.google.firebase:firebase-database:19.7.0] /Users/gregergahre/.gradle/caches/transforms-2/files-2.1/edc1c19b08d036ca947936e9d0e21547/jetified-firebase-database-19.7.0/AndroidManifest.xml:30:13-84
+40            android:directBootAware="true"
+40-->[com.google.firebase:firebase-common:19.5.0] /Users/gregergahre/.gradle/caches/transforms-2/files-2.1/6977b337de3dd1c5a031dbe1cc0ea1d3/jetified-firebase-common-19.5.0/AndroidManifest.xml:35:13-43
+41            android:exported="false" >
+41-->[com.google.firebase:firebase-database:19.7.0] /Users/gregergahre/.gradle/caches/transforms-2/files-2.1/edc1c19b08d036ca947936e9d0e21547/jetified-firebase-database-19.7.0/AndroidManifest.xml:31:13-37
+42            <meta-data
+42-->[com.google.firebase:firebase-database:19.7.0] /Users/gregergahre/.gradle/caches/transforms-2/files-2.1/edc1c19b08d036ca947936e9d0e21547/jetified-firebase-database-19.7.0/AndroidManifest.xml:32:13-34:85
+43                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+43-->[com.google.firebase:firebase-database:19.7.0] /Users/gregergahre/.gradle/caches/transforms-2/files-2.1/edc1c19b08d036ca947936e9d0e21547/jetified-firebase-database-19.7.0/AndroidManifest.xml:33:17-109
+44                android:value="com.google.firebase.components.ComponentRegistrar" />
+44-->[com.google.firebase:firebase-database:19.7.0] /Users/gregergahre/.gradle/caches/transforms-2/files-2.1/edc1c19b08d036ca947936e9d0e21547/jetified-firebase-database-19.7.0/AndroidManifest.xml:34:17-82
+45            <!--
+46                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+47                clients to use it as well, by defining this registrar in their own core/common library.
+48            -->
+49            <meta-data
+49-->[com.google.firebase:firebase-common:19.5.0] /Users/gregergahre/.gradle/caches/transforms-2/files-2.1/6977b337de3dd1c5a031dbe1cc0ea1d3/jetified-firebase-common-19.5.0/AndroidManifest.xml:43:13-45:85
+50                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+50-->[com.google.firebase:firebase-common:19.5.0] /Users/gregergahre/.gradle/caches/transforms-2/files-2.1/6977b337de3dd1c5a031dbe1cc0ea1d3/jetified-firebase-common-19.5.0/AndroidManifest.xml:44:17-121
+51                android:value="com.google.firebase.components.ComponentRegistrar" />
+51-->[com.google.firebase:firebase-common:19.5.0] /Users/gregergahre/.gradle/caches/transforms-2/files-2.1/6977b337de3dd1c5a031dbe1cc0ea1d3/jetified-firebase-common-19.5.0/AndroidManifest.xml:45:17-82
+52        </service>
+53
+54        <provider
+54-->[com.google.firebase:firebase-common:19.5.0] /Users/gregergahre/.gradle/caches/transforms-2/files-2.1/6977b337de3dd1c5a031dbe1cc0ea1d3/jetified-firebase-common-19.5.0/AndroidManifest.xml:26:9-31:39
+55            android:name="com.google.firebase.provider.FirebaseInitProvider"
+55-->[com.google.firebase:firebase-common:19.5.0] /Users/gregergahre/.gradle/caches/transforms-2/files-2.1/6977b337de3dd1c5a031dbe1cc0ea1d3/jetified-firebase-common-19.5.0/AndroidManifest.xml:27:13-77
+56            android:authorities="com.zebra.game.firebaseinitprovider"
+56-->[com.google.firebase:firebase-common:19.5.0] /Users/gregergahre/.gradle/caches/transforms-2/files-2.1/6977b337de3dd1c5a031dbe1cc0ea1d3/jetified-firebase-common-19.5.0/AndroidManifest.xml:28:13-72
+57            android:directBootAware="true"
+57-->[com.google.firebase:firebase-common:19.5.0] /Users/gregergahre/.gradle/caches/transforms-2/files-2.1/6977b337de3dd1c5a031dbe1cc0ea1d3/jetified-firebase-common-19.5.0/AndroidManifest.xml:29:13-43
+58            android:exported="false"
+58-->[com.google.firebase:firebase-common:19.5.0] /Users/gregergahre/.gradle/caches/transforms-2/files-2.1/6977b337de3dd1c5a031dbe1cc0ea1d3/jetified-firebase-common-19.5.0/AndroidManifest.xml:30:13-37
+59            android:initOrder="100" />
+59-->[com.google.firebase:firebase-common:19.5.0] /Users/gregergahre/.gradle/caches/transforms-2/files-2.1/6977b337de3dd1c5a031dbe1cc0ea1d3/jetified-firebase-common-19.5.0/AndroidManifest.xml:31:13-36
+60
+61        <activity
+61-->[com.google.android.gms:play-services-base:17.0.0] /Users/gregergahre/.gradle/caches/transforms-2/files-2.1/fdc0aa06e0f96e22bcf40a0e85ab5758/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+62            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+62-->[com.google.android.gms:play-services-base:17.0.0] /Users/gregergahre/.gradle/caches/transforms-2/files-2.1/fdc0aa06e0f96e22bcf40a0e85ab5758/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+63            android:exported="false"
+63-->[com.google.android.gms:play-services-base:17.0.0] /Users/gregergahre/.gradle/caches/transforms-2/files-2.1/fdc0aa06e0f96e22bcf40a0e85ab5758/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+64            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+64-->[com.google.android.gms:play-services-base:17.0.0] /Users/gregergahre/.gradle/caches/transforms-2/files-2.1/fdc0aa06e0f96e22bcf40a0e85ab5758/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+65
+66        <meta-data
+66-->[com.google.android.gms:play-services-basement:17.0.0] /Users/gregergahre/.gradle/caches/transforms-2/files-2.1/22b7b208cb79387d09fe014c7a08e406/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+67            android:name="com.google.android.gms.version"
+67-->[com.google.android.gms:play-services-basement:17.0.0] /Users/gregergahre/.gradle/caches/transforms-2/files-2.1/22b7b208cb79387d09fe014c7a08e406/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+68            android:value="@integer/google_play_services_version" />
+68-->[com.google.android.gms:play-services-basement:17.0.0] /Users/gregergahre/.gradle/caches/transforms-2/files-2.1/22b7b208cb79387d09fe014c7a08e406/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+69    </application>
+70
+71</manifest>
